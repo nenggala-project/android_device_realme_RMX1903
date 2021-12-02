@@ -21,7 +21,7 @@ TARGET_SCREEN_WIDTH := 1080
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-nenggala
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
@@ -60,4 +60,4 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl.realme_sdm710
 
 # Inherit from proprietary version
-$(call inherit-product-if-exists, vendor/realme/RMX1901/RMX1901-vendor.mk)
+$(call inherit-product-if-exists, vendor/realme/RMX1903/RMX1903-vendor.mk)

@@ -1,8 +1,9 @@
 #
 # Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2021 The Nenggala Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_RMX1901.mk
+    $(LOCAL_DIR)/nenggala_RMX1903.mk
