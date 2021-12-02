@@ -8,7 +8,7 @@
 TARGET_BOOT_ANIMATION_RES := 2280
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/nenggala/config/common_full_phone.mk)
 
 # Inherit from RMX1903 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
