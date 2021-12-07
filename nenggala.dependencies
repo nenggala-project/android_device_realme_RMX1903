@@ -4,7 +4,7 @@
     "target_path": "device/realme/sdm710-common"
   },
   {
-    "repository": "vendor_realme_RMX1903",
-    "target_path": "vendor/realme/RMX1903"
+    "repository": "vendor_realme_RMX1901",
+    "target_path": "vendor/realme/RMX1901"
   }
 ]
